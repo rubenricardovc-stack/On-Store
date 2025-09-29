@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Fone Bluetooth X100",
+    "category": "Eletrônicos",
+    "price": 12000.0,
+    "image": "https://images.unsplash.com/photo-1518444028509-4f9e7d6b7e8b?q=80&w=800&auto=format&fit=crop",
+    "description": "Fone Bluetooth com cancelamento de ruído."
+  },
+  {
+    "id": 2,
+    "name": "Caneca 'Bom dia'",
+    "category": "Casa",
+    "price": 2500.0,
+    "image": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?q=80&w=800&auto=format&fit=crop",
+    "description": "Caneca de cerâmica 350ml."
+  },
+  {
+    "id": 3,
+    "name": "Camiseta Básica",
+    "category": "Moda",
+    "price": 5000.0,
+    "image": "https://images.unsplash.com/photo-1520975910076-1f8a7b2c7b5d?q=80&w=800&auto=format&fit=crop",
+    "description": "Camiseta 100% algodão."
+  },
+  {
+    "id": 4,
+    "name": "Blender Portátil",
+    "category": "Casa",
+    "price": 8500.0,
+    "image": "https://images.unsplash.com/photo-1602524811181-9b04a6f4b6d9?q=80&w=800&auto=format&fit=crop",
+    "description": "Mini blender USB, perfeito para smoothies."
+  },
+  {
+    "id": 5,
+    "name": "Relógio SmartFit",
+    "category": "Acessórios",
+    "price": 22000.0,
+    "image": "https://images.unsplash.com/photo-1519741495757-60a2f3f7f6b1?q=80&w=800&auto=format&fit=crop",
+    "description": "Relógio com monitor de frequência cardíaca."
+  },
+  {
+    "id": 6,
+    "name": "Livro: Técnicas de Produtividade",
+    "category": "Livros",
+    "price": 3800.0,
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=800&auto=format&fit=crop",
+    "description": "Guia prático para aumentar sua produtividade."
+  }
+]

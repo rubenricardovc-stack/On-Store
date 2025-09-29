@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Loja Diversificada — Home</title>
+  <meta name="description" content="Loja online de produtos variados — casa, eletrônicos, moda e mais.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Loja<span>+</span></a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="products.html">Produtos</a>
+        <a href="cart.html" id="cart-link">Carrinho (<span id="cart-count">0</span>)</a>
+      </nav>
+      <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    </div>
+    <div class="hero container">
+      <h1>Produtos diversos para todas as necessidades</h1>
+      <p>Curadoria diária, frete rápido e devolução fácil.</p>
+      <a class="btn" href="products.html">Ver produtos</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="features">
+      <article>
+        <h3>Entrega rápida</h3>
+        <p>Envio em até 48 horas para as principais cidades.</p>
+      </article>
+      <article>
+        <h3>Suporte 24/7</h3>
+        <p>Estamos aqui para ajudar por chat, e-mail ou telefone.</p>
+      </article>
+      <article>
+        <h3>Segurança</h3>
+        <p>Checkout seguro e dados protegidos.</p>
+      </article>
+    </section>
+
+    <section class="sample-products">
+      <h2>Destaques</h2>
+      <div id="featured-grid" class="grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Loja Diversificada — Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    // small inline init
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

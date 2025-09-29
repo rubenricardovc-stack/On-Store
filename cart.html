@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Carrinho — Loja Diversificada</title>
+  <meta name="description" content="Seu carrinho de compras">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Loja<span>+</span></a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="products.html">Produtos</a>
+        <a href="cart.html" id="cart-link">Carrinho (<span id="cart-count">0</span>)</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Seu carrinho</h1>
+    <div id="cart-contents"></div>
+
+    <section id="checkout-section" class="checkout">
+      <h2>Finalizar compra</h2>
+      <form id="checkout-form">
+        <label>Nome completo <input name="name" required></label>
+        <label>E-mail <input name="email" type="email" required></label>
+        <label>Endereço <input name="address" required></label>
+        <button class="btn" type="submit">Enviar pedido (simulado)</button>
+      </form>
+      <div id="order-success" class="success" hidden>
+        <p>Pedido recebido! Isto é apenas uma simulação — nenhum pagamento foi processado.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Loja Diversificada</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

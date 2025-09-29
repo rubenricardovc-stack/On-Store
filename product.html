@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Produto — Loja Diversificada</title>
+  <meta name="description" content="Página do produto">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Loja<span>+</span></a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="products.html">Produtos</a>
+        <a href="cart.html" id="cart-link">Carrinho (<span id="cart-count">0</span>)</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container product-page">
+    <a href="products.html" class="back">← Voltar aos produtos</a>
+    <div id="product-detail" class="product-detail"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Loja Diversificada</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
